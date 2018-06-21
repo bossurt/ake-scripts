@@ -9,3 +9,28 @@ git push -u origin master
 
 git remote add origin https://github.com/bossurt/ake-scripts.git
 git push -u origin master
+
+My directory
++++++++++++++++++++++++++++++++
+/Github/ake-scripts
++++++++++++++++++++++++++++++++
+how to github
+ทำการเชื่อมต่อระหว่าง Local กับ Github
+1.git remote add origin https://github.com/bossurt/ake-scripts.git
+
+เป็นการส่งข้อมูลจาก local เข้าไปที่ Github ด้วยคำสั่ง
+2.git add <filename> หรือ git add *
+
+เขียนบอกเพื่อนสักหน่อยว่าทำอะไรไปบ้างด้วยคำสั่ง
+3.git commit -m “message here”
+
+ทำการส่งไฟล์ขึ้นไปบน Github โดยใช้คำสั่ง git push origin master แต่สำหรับการส่งไฟล์ขึ้นครั้งแรกจะใช้
+4. git push -u origin master
+
+ ระบบจะให้ใส่ Username, Password แต่ถ้าใช้งานบ่อยๆแล้วไม่อยากใส่ ต้องศึกษาเรื่อง ssh key
+################################
+username:bossurt or psuwannakul@gmail.com
+passwd :Gwumis95
+################################
+
+
